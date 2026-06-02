@@ -162,7 +162,7 @@ export default function App() {
     <div className="min-h-screen">
       <header className="header" style={{ position: 'relative' }}>
         <h1>RSA Math & File Transfer Simulation</h1>
-        <p style={{ color: 'var(--text-secondary)' }}>Educational Visualization with Custom Primes</p>
+        <p style={{ color: 'var(--text-secondary)' }}>RSA Simulation for File Transfer using Custom Primes</p>
         <button 
           className="btn" 
           onClick={handleReset} 
