@@ -367,7 +367,7 @@ export default function App() {
                   <hr style={{ borderColor: 'var(--panel-border)', margin: '8px 0' }} />
                   <div style={{ color: 'var(--accent-red)' }}><strong>Private Key:</strong></div>
                   <div>4. Private Exp (d): <strong>{customKeys.d}</strong></div>
-                  <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>d = (e⁻¹) mod φ</div>
+                  <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>d = (e⁻¹) mod n</div>
                 </div>
               )}
             </div>
